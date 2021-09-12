@@ -1,0 +1,745 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    color: #1F2C46;
+}
+
+
+.nav-bar {
+    display: flex;
+    padding: 20px;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 99999;
+    background-color: #fff;
+}
+
+
+.first-nav-bar {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    gap: 1.5rem;
+
+
+}
+
+.second-nav-bar {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    gap: 2rem;
+    justify-content: flex-end;
+
+}
+
+
+#hire-talent {
+    background-color: #3359DF;
+    color: #ffff;
+    padding: 15px 40px 15px 40px;
+    transition: 0.2s;
+}
+
+#hire-talent:hover {
+    background-color: #f8f9fa;
+    color: #FFAF30;
+
+}
+
+#join-andela {
+    background-color: #FFAF30;
+    color: #1F2C46;
+    padding: 15px 40px 15px 40px;
+}
+
+.e-nig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F6FC;
+    margin-top: 4%;
+}
+
+.l-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.ht {
+    background-color: #3359DF;
+    color: #ffff;
+    padding: 15px 40px 15px 40px;
+    width: 12%;
+}
+
+h1 {
+    line-height: 55px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #1F2C46;
+
+
+}
+
+#e-img {
+    padding-top: 50px;
+}
+
+.trustees-img {
+    max-width: 110px;
+}
+
+.trustees {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    padding: 40px;
+
+}
+
+.text {
+    color: #FFAF30;
+}
+
+.roi {
+    display: flex;
+    align-items: center;
+    place-content: center;
+    padding: 40px;
+    gap: 10rem;
+    background: url(https://andela.com/wp-content/uploads/2021/04/world.png), #182039;
+    background-size: 883px 467px;
+    background-position: right center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+#btn {
+    color: #ffffff;
+    padding: 15px 35px 15px 35px;
+    background-color: #1F2C46;
+
+}
+
+.eng {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+label {
+    color: #1F2C46;
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+
+}
+
+label, .eng {
+    padding-right: 160px;
+}
+
+.talent-hunt {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    background: #F4F6FC;
+    justify-content: center;
+    margin-bottom: 40px;
+
+
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-weight: 300;
+    width: 35%;
+    height: 400px;
+    padding: 50px 30px 30px 30px;
+    /*margin-bottom: 40px;*/
+    box-sizing: border-box;
+    background: #ffffff;
+    margin: 15px;
+    margin-bottom: 90px;
+    margin-top: -80px;
+}
+
+.heading {
+    font-size: 2rem;
+    color: #1F2C46;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    height: 250px;
+    margin-top: 40px;
+    width: 50%;
+}
+
+
+.grid:hover {
+    transition: 0.2s;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 4%), 0 2px 4px rgb(0 0 0 / 4%), 0 4px 8px rgb(0 0 0 / 4%), 0 8px 16px rgb(0 0 0 / 4%), 0 16px 32px rgb(0 0 0 / 4%), 0 32px 64px rgb(0 0 0 / 4%);
+}
+
+#img4 {
+    height: auto;
+    width: 100px;
+}
+
+.talent-hunt > div img {
+    height: auto;
+    max-width: 100%;
+}
+
+/*
+.grid > div a p img {
+    display: flex;
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    width: 33px;
+
+}*/
+h2 {
+    margin: 0;
+    font-size: 2rem;
+    color: #1F2C46;
+    font-weight: 400;
+}
+
+.grid > div a {
+    color: #3359DF;
+}
+
+.grid > div p {
+    color: #565B73;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.grid > div img {
+    background: #FFAF30;
+}
+
+.h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.rabbit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+    color: #304659;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.rabbit > div p {
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+#r-img {
+    padding-right: 70px;
+    margin-right: 20px;
+}
+
+.quote {
+    line-height: 25px;
+}
+
+.cto {
+    color: #565B73;
+    font-size: 12px;
+}
+
+.r-div {
+    font-weight: 400;
+
+}
+
+.connections {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+
+/*
+.connections {
+    background: url(https://andela.com/wp-content/uploads/2021/02/bg_ourCommunity.png);
+    background-position: cover;
+    left: 0;
+    width: 701px;
+    height: 467px;
+    top: 200px;
+}*/
+#img0 {
+    background: #ffaf30;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 60px 30px 25px 30px;
+    max-width: 100px;
+    object-fit: cover;
+    height: auto;
+
+}
+
+#avatar {
+    width: 125px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+#community {
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: lato, sans-serif;
+    color: #1F2C46;
+
+}
+
+.skill > div p {
+    color: #565B73;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #1F2C46;
+}
+
+#learn-m {
+    line-height: 70px;
+}
+
+.connections > div a {
+    background-color: #3359DF;
+    color: #ffff;
+    padding: 15px 40px 15px 40px;
+
+}
+
+
+.developer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F4F6FC;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: -40px;
+
+
+}
+
+.developer > div #a-img {
+    border-radius: 50%;
+    background: #3359df;
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.dev-name > p {
+    color: #3B5266;
+}
+
+.s-dev {
+    color: #FFAF30;
+    line-height: 25px;
+}
+
+.h5 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #1F2C46;
+    line-height: 40px;
+}
+
+
+/*section > div #a-img h4 {
+    text-align: center;
+    margin: auto;
+}*/
+.dev-name {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+
+
+}
+
+.sd {
+    display: flex;
+    line-height: 25px;
+}
+
+#alfred {
+    margin-right: 40px;
+}
+
+#h4 {
+    font-size: 2.5rem;
+    margin-bottom: 45px;
+    line-height: 40px;
+}
+
+#a-img {
+    margin-bottom: 40px;
+}
+
+
+.sd > div p {
+    font-size: 13px;
+}
+
+.s-dev > div p {
+    font-size: 13px;
+}
+
+#alfred {
+    margin-left: 30px;
+}
+
+.engineer {
+    margin: 10px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    height: 50vh;
+    margin-bottom: 50px;
+
+}
+
+.flex-story {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    color: #ffffff;
+
+
+}
+
+.h6 {
+    color: #49AAAF;
+    line-height: 40px;
+    font-size: 15px;
+    border-top: 4px solid #49AAAF;
+    width: 20%;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+#ss {
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #1F2C46;
+}
+
+.case-std {
+    border: 1px solid rgba(51, 89, 223, 0.25);
+    height: 200px;
+    border-radius: 5px;
+    padding: 40px 30px 30px 30px;
+    transition: 0.2s all ease;
+
+
+}
+
+.case-std > div a {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: lato, sans-serif;
+    line-height: 30px;
+}
+
+.case-std {
+    background: #ffffff;
+    color: #1F2C46;
+}
+
+.global-talent {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+}
+
+
+.glo-t {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    border-top: 1px solid rgba(51, 89, 223, 0.25);
+    border-bottom: 1px solid rgba(51, 89, 223, 0.25);
+    height: 200px;
+    align-items: center;
+
+
+}
+
+#h7 {
+    font-size: 2rem;
+    color: #3359DF;
+}
+
+.glo-t > div a {
+    background-color: #3359DF;
+    color: #ffff;
+    padding: 15px 60px 15px 60px;
+}
+
+.glo-t > div p {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: lato, sans-serif;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li > a {
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    gap: 30%;
+    align-items: center;
+
+}
+
+.entries {
+    display: flex;
+    width: 80%;
+
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.list-item {
+    margin: 40px;
+    line-height: 40px;
+
+}
+
+.items {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #565B73;
+}
+
+
+.entries > div a {
+    color: #3359DF;
+}
+
+.icon > div p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #565B73;
+    font-weight: 300;
+}
+
+#rwanda {
+    line-height: 0;
+}
+
+.fab {
+    font-size: 25px;
+    margin: 10px;
+    font-weight: 400;
+    color: #3B5266;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    border-top: 1px solid rgba(51, 89, 223, 0.25);
+
+}
+
+.footer-list {
+    display: flex;
+    margin: 30px;
+}
+
+.footer-list > div a {
+    margin: 20px;
+    color: #565B73;
+    font-weight: 300;
+}
+
+#copyright {
+    color: #565B73;
+    font-weight: 300;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .second-nav-bar {
+        display: none;
+    }
+
+    .nav-bar {
+
+    }
+
+    .e-nig {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .trustees {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 22%;
+    }
+
+    .sd {
+        display: none;
+
+    }
+
+    .roi {
+        display: flex;
+        flex-direction: column;
+        line-height: 0;
+
+    }
+
+    .eng {
+        font-size: 1rem;
+        padding-top: 30px;
+
+    }
+    .heading {
+        text-align: center;
+        margin: auto;
+    }
+    h2 {
+        font-size: 1rem;
+
+    }
+    .talent {
+        display: flex;
+    }
+    .entries {
+        display: flex;
+        flex-direction: column;
+    }
+    .icon {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .grid {
+        width: 100%;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .trustees-img {
+        padding: 40px 40px 40px 40px;
+
+    }
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+
